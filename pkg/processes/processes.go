@@ -3,6 +3,7 @@ package processes
 
 import "fmt"
 
-func sayHello() {
+// SayHello just says hello
+func SayHello() {
 	fmt.Println("Hello, world. -dimpar-")
 }
