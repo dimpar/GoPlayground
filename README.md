@@ -6,6 +6,8 @@ Go library package that provides APIs to run external processes for unix family.
 
 It is required to operate on unix family machine.
 
+Also, it is assumed that your GO version can use `Go Modules`
+
 ### Getting Started
 
 API consist of the following interfaces:
@@ -17,6 +19,12 @@ API consist of the following interfaces:
 - Stop() - stops a process
 
 ### Installing
+
+In `go.mod`
+
+```
+require https://github.com/dimpar/go-processes master
+```
 
 Import to a package where this API will be used
 
